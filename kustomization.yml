@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- backend/deploy.yml
+- frontend/deploy.yml
+- backend/service.yml
+- frontend/service.yml
+
+images:
+- name: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/backend
+  newName: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/backend
+  newTag: v1.0
+- name: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/frontend
+  newName: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/frontend
+  newTag: v1.0
