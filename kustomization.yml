@@ -9,7 +9,7 @@ resources:
 images:
 - name: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/backend
   newName: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/backend
-  newTag: v1.0
+  newTag: 1b5c804ba2e4aa704be4fdf3efc27a171c0e86c5
 - name: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/frontend
   newName: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/frontend
   newTag: v1.0
