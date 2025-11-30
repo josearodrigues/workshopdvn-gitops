@@ -12,4 +12,4 @@ images:
   newTag: 9b4140b3b8af1a8c19dabe6cf658df00b2185eea
 - name: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/frontend
   newName: 381491977261.dkr.ecr.us-east-1.amazonaws.com/workshop-na-nuvem/production/frontend
-  newTag: 223418bc024df9858ef5de6f045425238224c602
+  newTag: 3858ffb7b3a3bab984eebbc3e0f77e8e286cac35
