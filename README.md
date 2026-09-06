@@ -137,7 +137,3 @@ kubectl set image deployment/frontend frontend=381491977261.dkr.ecr.us-east-1.am
 ## 📄 Licença
 
 Esta configuração GitOps está licenciada sob a **MIT License** – sinta‑se livre para fork‑ar, adaptar e reutilizar em seus próprios projetos.
-
----
-
-*Happy GitOps!*
